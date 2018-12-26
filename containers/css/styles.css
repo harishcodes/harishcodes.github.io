@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 
 html, body {
     margin: 0;
@@ -290,7 +290,18 @@ button:hover {
   }
 }
 
+@media (max-width: 640px) {
 
+    .navbar-default .navbar-nav {
+        float: none;
+    }
+
+    .navbar-default .navbar-text {
+        float:none;
+        text-decoration: none;
+    }    
+    
+}
 
 .navbar-default {
     background-color: #000000;
@@ -349,6 +360,8 @@ button:hover {
     display: block;
 }
 
+
+    
 table {
     width:100%;
 }

@@ -25,19 +25,23 @@ export default function Header () {
   )*/
      return (
         <Navbar fixedTop fluid>
-            
+            <Navbar.Header>
+        <Navbar.Brand>
+          <a href="#"></a>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-         <OverlayTrigger
-      trigger="click"
-      rootClose
-      placement="bottom"
-      overlay={popoverClickRootClose}
-    >
-                    <NavItem eventKey={2} href="#">
-                        CONTACT
-                    </NavItem>             
-         </OverlayTrigger>                
+                     <OverlayTrigger
+                      trigger="click"
+                      rootClose
+                      placement="bottom"
+                      overlay={popoverClickRootClose}>
+                        <NavItem eventKey={2} href="#">
+                            CONTACT
+                        </NavItem>             
+                    </OverlayTrigger>                
                 </Nav>
                     <Navbar.Text>
                         <Navbar.Link href="https://drive.google.com/file/d/1c7Pyz4sCWf99e_jK8Z1Hj6PEwUZOKsMo/view?usp=sharing" target="_blank">RESUME</Navbar.Link>
