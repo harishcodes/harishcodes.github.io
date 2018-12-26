@@ -282,12 +282,28 @@ button:hover {
   .slider-content .inner h1 {
     font-size: 32px;
   }    
+
+  .slider-content .inner h2 {
+    font-size: 15px;
+  } 
+    
+.slider-content .inner h3 {
+    font-size: 15px;
+  }     
 }
 
 @media (max-width: 640px) {
   .slider-content .inner h1 {
     font-size: 32px;
   }
+    
+  .slider-content .inner h2 {
+    font-size: 15px;
+  }     
+    
+  .slider-content .inner h3 {
+    font-size: 15px;
+  }      
 }
 
 @media (max-width: 640px) {

@@ -32,7 +32,7 @@ export default function Header () {
         <Navbar.Toggle />
         </Navbar.Header>
             <Navbar.Collapse>
-                <Nav>
+                <Nav pullRight>
                      <OverlayTrigger
                       trigger="click"
                       rootClose
@@ -41,11 +41,12 @@ export default function Header () {
                         <NavItem eventKey={2} href="#">
                             CONTACT
                         </NavItem>             
-                    </OverlayTrigger>                
+                    </OverlayTrigger>     
                 </Nav>
                     <Navbar.Text>
                         <Navbar.Link href="https://drive.google.com/file/d/1c7Pyz4sCWf99e_jK8Z1Hj6PEwUZOKsMo/view?usp=sharing" target="_blank">RESUME</Navbar.Link>
-                    </Navbar.Text>         
+                    </Navbar.Text>          
+        
             </Navbar.Collapse>            
         </Navbar>    
     )

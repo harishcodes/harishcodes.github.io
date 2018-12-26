@@ -96,6 +96,7 @@ export default class App extends React.Component {
 				>
 					<div className="inner">
                         <h1>SKILLS</h1>
+                    <p> </p>
                         <h3> 
                             <Label> Javascript  </Label>
                             <Label> Java  </Label>
@@ -113,7 +114,7 @@ export default class App extends React.Component {
                             <Label> Tableau  </Label>
                             <Label> Git  </Label>
                             <Label> DevOps/Jenkins  </Label>                    
-                        </h3>                                        
+                        </h3>    
 					</div>
 					
 				</div>                     
