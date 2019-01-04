@@ -21,11 +21,23 @@ const aStyle = {
 }
 
 export default function WorkPanel(){
-    
+
     return (
-    
+
     <PanelGroup accordion id="accordionWork">
   <Panel eventKey="1"  style={PanelStyle}>
+    <Panel.Heading style ={PanelHeadingStyle}>
+      <Panel.Title toggle>Letschat!! - React + Redux App</Panel.Title>
+    </Panel.Heading>
+    <Panel.Body collapsible>
+        <p> This App was built using React and Redux. Uses Pusher chatkit to create chat rooms.
+        </p>
+        <p> </p>
+        <p> </p>
+        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/letschat" target="_blank"> Fuel Finder</a></p>
+    </Panel.Body>
+  </Panel>
+  <Panel eventKey="2"  style={PanelStyle}>
     <Panel.Heading style ={PanelHeadingStyle}>
       <Panel.Title toggle>FuelFinder - React + Redux App</Panel.Title>
     </Panel.Heading>
@@ -37,7 +49,7 @@ export default function WorkPanel(){
         <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/fuelfinder" target="_blank"> Fuel Finder</a></p>
     </Panel.Body>
   </Panel>
-  <Panel eventKey="2"  style={PanelStyle}>
+  <Panel eventKey="3"  style={PanelStyle}>
     <Panel.Heading style ={PanelHeadingStyle}>
       <Panel.Title toggle>Smart Automate</Panel.Title>
     </Panel.Heading>
@@ -46,10 +58,10 @@ export default function WorkPanel(){
         </p>
         <p> </p>
         <p> </p>
-        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/smartautomate" target="_blank"> Smart Automate</a></p>        
+        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/smartautomate" target="_blank"> Smart Automate</a></p>
     </Panel.Body>
   </Panel>
-  <Panel eventKey="3" style={PanelStyle}>
+  <Panel eventKey="4" style={PanelStyle}>
     <Panel.Heading style ={PanelHeadingStyle}>
       <Panel.Title toggle>Coupon Reminder</Panel.Title>
     </Panel.Heading>
@@ -58,10 +70,10 @@ export default function WorkPanel(){
         </p>
         <p> </p>
         <p> </p>
-        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/couponreminder" target="_blank"> Coupon Reminder</a></p>  
-    </Panel.Body>        
+        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/couponreminder" target="_blank"> Coupon Reminder</a></p>
+    </Panel.Body>
   </Panel>
-<Panel eventKey="4" style={PanelStyle}>
+<Panel eventKey="5" style={PanelStyle}>
     <Panel.Heading style ={PanelHeadingStyle}>
       <Panel.Title toggle>More..</Panel.Title>
     </Panel.Heading>
@@ -69,12 +81,12 @@ export default function WorkPanel(){
         <p> Much more in Pipeline
         </p>
         <p> </p>
-        <p> </p>         
-    </Panel.Body>        
-  </Panel>            
+        <p> </p>
+    </Panel.Body>
+  </Panel>
 </PanelGroup>
-    
-    
+
+
     )
-    
+
 }
