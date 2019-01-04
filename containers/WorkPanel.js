@@ -34,7 +34,7 @@ export default function WorkPanel(){
         </p>
         <p> </p>
         <p> </p>
-        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/letschat" target="_blank"> Fuel Finder</a></p>
+        <p> Link to the App : <a style= {aStyle} href="https://harishcodes.github.io/letschat" target="_blank"> Lets Chat!!</a></p>
     </Panel.Body>
   </Panel>
   <Panel eventKey="2"  style={PanelStyle}>
